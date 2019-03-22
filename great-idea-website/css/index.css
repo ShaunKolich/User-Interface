@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -43,13 +43,14 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
+    border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -64,3 +65,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+nav a.services{
+    margin-left:250px;
+}
+.nav a{
+
+    color:lightgrey;
+    text-decoration:none;
+    font-size:12pt;
+    padding: 10px;
+    /* margin-right:25px; */
+    margin-left:35px;
+    left:150px;
+
+
+}
+
+nav .logo{
+    margin-top:20px;
+    margin-left:150px;
+
+
+}
+
+header{
+    padding: 0px 0px 50px 0px;
+}
+
+.header_img{
+    text-align:center;
+    margin-top:-450px;
+    margin-left:775px;
+
+}
+
+header .name{
+    margin-top:150px;
+    margin-right:650px;
+    font-size:60pt;
+    text-align: center;
+}
+
+button{
+    color: darkslategrey;
+    font-size:12pt;
+    width:175px;
+    height:40px;
+    background-color:white;
+    border:1px solid black;
+    margin-left:375px;
+
+
+}
+button:hover{
+    background-color:black;
+    color: white;
+}
+
+.content-first{
+
+    margin:0 auto;
+    width: 900px;
+    margin-left:250px;
+    margin-right: 10px;
+    border-top: 1px solid black;
+    padding:20px 0px 20px 0px;
+}
+
+
+.content-first div{
+
+    display:inline-block;
+    width:48%;
+}
+
+.middle-img{
+    margin-left:250px;
+}
+
+.content_bottom{
+    margin: 0 auto;
+    width: 900px;
+    margin-left:250px;
+    margin-right: 10px;
+    padding: 25px 0px 25px 0px;
+    border-bottom:1px solid black;
+}
+
+.content_bottom div{
+    display:inline-block;
+    width:30%;
+}
+
+.contact{
+    padding:25px 0px 0px 0px;
+    margin-left:250px;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+}
